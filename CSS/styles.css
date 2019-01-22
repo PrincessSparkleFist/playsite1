@@ -1,0 +1,187 @@
+/*  References
+
+#E0C214
+#9CA93F
+#244C29
+
+#EFF5F8
+#C1D2D9
+#3CBCE9
+#0067D8
+#00193C
+
+#C7B380
+#703D12
+
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Playfair Display', serif;
+
+*/
+
+
+/****Div Styles******/
+
+body {
+margin: 0;
+color: #00193C;
+font-family: 'Raleway', sans-serif;
+}
+
+.top {
+  text-align: center;
+}
+
+.topColour {
+  background-color: #244c29;
+  height: 300px;
+  width: 100%;
+  /* offset-x | offset-y | blur-radius | color */
+  box-shadow: 0 0 15px black;
+  position: absolute;
+  top: 0;
+}
+
+.headMountain {
+  position: relative;
+
+}
+
+.hero1 {
+  width: 100%;
+  position: absolute;
+  top: 40%;
+}
+
+.hero2 {
+  width: 100%;
+  position: absolute;
+  top: 65%;
+}
+
+.topMenu {
+  background-color: #9CA93F;
+  padding: 20px;
+  position: sticky;
+  top: 20px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.content {
+  height: auto;
+}
+
+.middle {
+  background-color: #EFF5F8;
+  margin: 60px 5%;
+  padding: 40px 12.5%;
+}
+
+.icons {
+  text-align: center;
+  margin: 40px auto;
+}
+
+.columns {
+  text-align: justify;
+  position: relative;
+}
+
+.columnLeft {
+  position: relative;
+  width: 30%;
+}
+
+.columnMiddle {
+  width: 30%;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%);
+}
+
+.columnRight {
+  width: 30%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.bottom {
+
+}
+
+.footer {
+  background-color: #244C29;
+  margin: 0;
+  padding: 40px;
+  color: #9CA93F;
+  text-align: center;
+}
+
+.footMountain {
+  background-position: center center;
+  height: 200px;
+  margin: 0;
+}
+
+/*****Text Styles****/
+
+h1 {
+  font-size: 4em;
+  color: #244C29;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2em;
+  color: #244C29;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+a {
+  color: #244C29;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 20px;
+}
+
+a:hover {
+  color: #E0C214;
+  text-decoration: underline;
+}
+
+hr {
+  width: 75%;
+  color: #244C29;
+  position: relative;
+  top: 44px;
+  border-style: inset none none none;
+  border-width: 3px;
+}
+
+.midHR {
+  margin: 60px auto;
+  top: 0;
+}
+
+.heroText {
+  color: white;
+  width: 50%;
+  margin: 0 auto;
+  text-shadow: 0 0 16px #00193C;
+}
+
+
+/****Image Styles*****/
+
+.img1 {
+  width: 20%;
+  padding: 2%;
+  margin: auto;
+}
